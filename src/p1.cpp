@@ -3,12 +3,12 @@ using namespace std;
 long long factorial(int k){
   if(k==0){return 1;}
   if(k==1){return 1;}
-  else return(k*bb(k-1));
+  else return(k*factorial(k-1));
 }
 long long sum(int k){
   if(k==0){return 0;}
   if(k==1){return 1;}
-  else return(k+aa(k-1));
+  else return(k+sum(k-1));
 }
 
 int main() {
