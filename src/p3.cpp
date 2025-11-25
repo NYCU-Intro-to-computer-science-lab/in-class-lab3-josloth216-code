@@ -17,7 +17,7 @@ int main(){
   int a,x;
   bool s=false;
   cin>>a;
-  if(a==4){cout<<"2 2"};
+  if(a==4){cout<<"2 2";}
   for(int i=2;i<(a/2)-1;i++){
     if(s==true){break;}
     if(isPrime(i)==true){
